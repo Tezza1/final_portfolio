@@ -1,0 +1,19 @@
+/* HEADER  */
+.menu.item {
+    font-size: 1.1em;
+}
+
+#static {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#page-header {
+    margin-top: 5em;
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+    line-height: 1.5em;
+}
