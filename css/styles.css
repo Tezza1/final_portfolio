@@ -17,3 +17,29 @@
     font-size: 3em;
     line-height: 1.5em;
 }
+
+#blur {
+    filter: blur(1px);
+    font-size: 1.4em;
+}
+
+#focus-header {
+    font-size: 1.6em;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+/* CONTENT */
+.content-white {
+    background-color: white;
+}
+
+.content-grey {
+    background-color: #f2f4f7;
+}
+
+#top-content-container {
+    margin-top: 20em;
+    width: 100% !important;
+    padding: 2em 4em;
+}
