@@ -9,7 +9,6 @@
     <meta name="author" content="Terry Shenker">
     <link rel="shortcut icon" href="favicon.ico">
     <title>Terry Shenker- Portfolio</title>
-    <!-- TODO: favicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -34,7 +33,7 @@
     <!-- BACKGROUND -->
     <div class="ui two column doubling stackable grid container content-white" id="top-content-container">
         <div class="column">
-            <h1 class="ui blue header">Background</h1>
+            <h1 class="ui blue header"><i class="address card outline icon"></i> Background</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis incidunt ipsam consequuntur excepturi debitis odio omnis sapiente quidem, cum deleniti nihil ad libero magnam fugiat impedit soluta cupiditate quo!</p>
             <ul>
                 <li>Positions</li>
@@ -43,15 +42,33 @@
             </ul>
         </div>
         <div class="column">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ullam, dolore deleniti delectus consequatur. Illum omnis minima sunt ab aliquam quos, placeat aut cumque sit, dolore inventore, modi pariatur atque.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae cum fugiat architecto excepturi ipsum, deleniti vitae ipsa asperiores consequatur minus itaque maiores beatae cupiditate distinctio neque autem molestias veritatis voluptatum!</p>
+            <div class="ui accordion">
+                <div class="title">
+                    <i class="dropdown icon"></i> <span class="ui header blue medium">Skills</span>
+                </div>
+                <div class="content">
+                    <p class="transition hidden">A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i> <span class="ui header blue medium">Experience</span>
+                </div>
+                <div class="content">
+                    <p class="transition hidden">There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i> <span class="ui header blue medium">Study</span>
+                </div>
+                <div class="content">
+                    <p class="transition hidden">Three common ways for a prospective owner to acquire a dog is from pet shops, private owners, or shelters.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- PROJECTS -->
     <div class="ui two column doubling stackable grid container content-grey" id="middle-content-container">
         <div class="column">
-            <h1 class="ui blue header">Projects</h1>
+            <h1 class="ui blue header"><i class="code icon"></i> Projects</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis incidunt ipsam consequuntur excepturi debitis odio omnis sapiente quidem, cum deleniti nihil ad libero magnam fugiat impedit soluta cupiditate quo!</p>
             <ul>
                 <li>Positions</li>
@@ -68,7 +85,7 @@
     <!-- CONTACT -->
     <div class="ui two column doubling stackable grid container content-white" id="bottom-content-container">
         <div class="column">
-            <h1 class="ui blue header">Contact</h1>
+            <h1 class="ui blue header"><i class="paper plane outline icon"></i> Contact</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis incidunt ipsam consequuntur excepturi debitis odio omnis sapiente quidem, cum deleniti nihil ad libero magnam fugiat impedit soluta cupiditate quo!</p>
             <ul>
                 <li>Positions</li>
@@ -88,6 +105,13 @@
             <p class="ui blue medium header center aligned">&copy; Terry Shenker 2019</p>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script language='javascript'>
+        $(document).ready(function(){
+            // initialize the accordion
+            $('.ui.accordion').accordion();
+        });
+    </script>
 </body>
 </html>
