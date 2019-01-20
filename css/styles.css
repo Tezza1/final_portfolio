@@ -31,11 +31,11 @@
 
 /* CONTENT */
 .content-white {
-    background-color: rgba(255,250,250);
+    background-color: rgb(255,255,255);
 }
 
 .content-grey {
-    background-color: rgb(255,255,255);
+    background-color: rgb(255,250,250);
 }
 
 #top-content-container {
@@ -47,6 +47,14 @@
 #middle-content-container, #bottom-content-container {
     width: 100% !important;
     padding: 2em 5em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.5em;
 }
 
 /* FOOTER */
