@@ -16,9 +16,9 @@
 <body id="the-body">
     <!-- MENU -->
     <div class="ui inverted three item pointing top fixed menu">
-      <a class="active item">Background</a>
-      <a class="item">Projects</a>
-      <a class="item">Contact</a>
+      <a class="active item" id="item1" href="#top-content-container">Background</a>
+      <a class="item" id="item2" href="#middle-content-container">Projects</a>
+      <a class="item" id="item3" href="#bottom-content-container">Contact</a>
     </div>
 
     <!-- BANNER -->
@@ -146,6 +146,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script language='javascript'>
         $(document).ready(function(){
+
+            $('#item1').click(function(){
+                $('#item1').addClass("active");
+                $('#item2').removeClass("active");
+                $('#item3').removeClass("active");
+            });
+
+            $('#item2').click(function(){
+                $('#item2').addClass("active");
+                $('#item1').removeClass("active");
+                $('#item3').removeClass("active");
+            });
+
+            $('#item3').click(function(){
+                $('#item3').addClass("active");
+                $('#item1').removeClass("active");
+                $('#item2').removeClass("active");
+            });
+
             // initialize the accordion
             $('.ui.accordion').accordion();
         });
