@@ -57,6 +57,16 @@ li {
     line-height: 1.5em;
 }
 
+/* SKILLS */
+.list-box {
+    list-style: square;
+}
+
+.box-header {
+    font-weight: bold;
+    color: #26a69a;
+}
+
 /* FOOTER */
 #footer {
     padding: 4em 2em 3em 2em;
