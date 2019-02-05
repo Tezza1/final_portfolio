@@ -1,7 +1,7 @@
 # Portfolio - Terry Shenker
 
 #### Live version
-[Live version hosted on Github Pages](https://hidden-beach-22701.herokuapp.com)
+[Live version hosted on Github Pages](https://tezza1.github.io/final_portfolio)
 
 #### Overview
 Obtain an overview of my background, skills, projects and area of focus. 
