@@ -38,6 +38,11 @@
     background-color: rgb(255,250,250);
 }
 
+a {
+    color: black;
+    font-weight: bold;
+}
+
 #top-content-container {
     margin-top: 20em;
     width: 100% !important;
@@ -64,13 +69,23 @@ li {
 
 .box-header {
     font-weight: bold;
-    color: #26a69a;
+    color: #7e57c2;
 }
 
 .secondary-box-header {
-    color: #4db6ac;
+    color: #ba68c8;
     letter-spacing: 0.1em;
     margin-left: 1em;
+}
+
+.key-list {
+    font-weight: bold;
+}
+
+.final-icon{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 0.5em;
 }
 
 /* FOOTER */
