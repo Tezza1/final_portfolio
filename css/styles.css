@@ -62,7 +62,16 @@ li {
     line-height: 1.5em;
 }
 
-/* SKILLS */
+.left-standout-text {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.first-letter {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 .list-box {
     list-style: square;
 }
@@ -86,6 +95,10 @@ li {
     font-weight: bold;
     font-size: 1.5em;
     padding-left: 0.5em;
+}
+
+.zoom-in {
+    cursor: zoom-in;
 }
 
 /* FOOTER */
