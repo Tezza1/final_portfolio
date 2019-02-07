@@ -15,7 +15,7 @@
 </head>
 <body class="background">
     <!-- MENU -->
-    <nav>
+    <nav id="nav">
         <div class="ui inverted three item pointing top fixed menu">
           <a class="active item" id="item1" href="#top-content-container">Background</a>
           <a class="item" id="item2" href="#middle-content-container">Projects</a>
@@ -39,6 +39,7 @@
         <section>
             <div class="ui two column doubling stackable grid container content-white" id="top-content-container">
                 <div class="column">
+                    <span> &nbsp; </span>
                     <h1 class="ui violet header"><i class="address card outline icon"></i> Background</h1>
                     <p class="left-standout-text"><span class="first-letter">I</span>T, business, consultancy, management, project management and web development background. Able to bring value by integrating software development and business operations. Have a strong interest in full stack web development, project management and DevOps.</p>
                     <ul class="left-standout-text">
@@ -48,6 +49,7 @@
                     </ul>
                 </div>
                 <div class="column">
+                    <span> &nbsp; </span>
                     <div class="ui accordion">
                         <div class="active title">
                             <i class="dropdown icon"></i> <span class="ui header violet medium">Skills</span>
@@ -115,6 +117,7 @@
         <section>
             <div class="ui two column doubling stackable grid container content-grey" id="middle-content-container">
                 <div class="column">
+                    <span> &nbsp; </span>
                     <h1 class="ui violet header"><i class="code icon"></i> Projects</h1>
                     <p class="left-standout-text"><span class="first-letter">C</span>ore focus is on full stack web development, using Javascript and the MERN stack. The key  technologies areas include: Node, Express, MongoDB, Mongoose, Sockets, APIs, React, React Router and Redux. Other areas of knowledge include:</p>
                     <ul class="key-list left-standout-text">
@@ -125,13 +128,14 @@
                     </ul>
                 </div>
                 <div class="column">
+                    <span> &nbsp; </span>
                     <div class="ui accordion">
                         <div class="active title">
                             <i class="dropdown icon"></i> <span class="ui header violet medium">LangExBot</span>
                         </div>
                         <div class="active content">
+                            <img class="ui fluid image zoom-in" id="langexbot_modal" src="img/LangExBot.png" alt="Screenshot of LangExBot app">
                             <p class="transition hidden">
-                                <img class="ui fluid image zoom-in" id="langexbot_modal" src="img/LangExBot.png" alt="Screenshot of LangExBot app">
                                 <p><span class="box-header">Full stack - MERN</span></p>
                                 <p>The app is for non-native English students to practice their everyday English conversation. They can do this through the use of a chatbot to have everyday English conversations.</p>
                                 <p>Full stack project using Node, Express, MongoDB, Mongoose, React, React Router and Redux.</p>
@@ -143,8 +147,8 @@
                             <i class="dropdown icon"></i> <span class="ui header violet medium">devlpr_npad</span>
                         </div>
                         <div class="content">
+                            <img class="ui fluid image zoom-in" id="npad_modal" src="img/devlp_npad.png" alt="Screenshot of devlpr_npad app">
                             <p class="transition hidden">
-                                <img class="ui fluid image zoom-in" id="npad_modal" src="img/devlp_npad.png" alt="Screenshot of devlpr_npad app">
                                 <p><span class="box-header">Backend - Node, Express, Mongo</span></p>
                                 <p>The app is for developers to have a place to record their ideas and plans as they are working through a project. It can also act as a repository of thoughts and ideas from past projects.</p>
                                 <p>Node project using Node, Express, MongoDB, Mongoose and EJS</p>
@@ -156,8 +160,8 @@
                             <i class="dropdown icon"></i> <span class="ui header violet medium">marvel_superheroes</span>
                         </div>
                         <div class="content">
+                            <img class="ui fluid image zoom-in" id="marvel_modal" src="img/marvel.png" alt="Screenshot of Marvel app">
                             <p class="transition hidden">
-                                <img class="ui fluid image zoom-in" id="marvel_modal" src="img/marvel.png" alt="Screenshot of Marvel app">
                                 <p><span class="box-header">Frontend - jQuery, APIs</span></p>
                                 <p>Users can get information about their favorite Marvel superhero, including comics and movies that they have appeared in, information about the characters and view trailers and clips from Marvel.</p>
                                 <p>jQuery, custom CSS grid and extensive, integrated API calls.</p>
@@ -191,6 +195,7 @@
         <section>
             <div class="ui two column doubling stackable grid container content-white" id="bottom-content-container">
                 <div class="column">
+                    <span> &nbsp; </span>
                     <h1 class="ui violet header"><i class="paper plane outline icon"></i> Contact</h1>
                     <p class="left-standout-text"><span class="first-letter">I</span> see my role as a web developer to add value to your business by developing solutions that allow you to increase your customer's satisfaction, gain efficiencies in operations and obtain greater oversight of your business.</p>
                     <p class="left-standout-text"><span class="first-letter">A</span>dditionally, the project management structure that I use, with a focus on gateway points, ensures that the project gets completed within budget, in a timely fashion and according to specifications.</p>
@@ -202,11 +207,12 @@
                     </ul> -->
                 </div>
                 <div class="column">
+                    <span> &nbsp; </span>
                     <div class="ui cards">
                         <div class="card">
                             <div class="content">
                                 <div class="header">Email</div>
-                                <div class="meta">Contact me with any work related enquiries.</div>
+                                <div class="meta">Contact me with work related enquiries.</div>
                                 <div class="description">
                                     <address><a href="mailto:tshenker@technicaldataservices.me">tshenker@terrywebdev.services</a></address>
                                 </div>
@@ -215,7 +221,7 @@
                         <div class="card">
                             <div class="content">
                                 <div class="header">Email</div>
-                                <div class="meta">Contact me for any project based work.</div>
+                                <div class="meta">Contact me for project based work.</div>
                                 <div class="description">
                                     <address><a href="mailto:tshenker@technicaldataservices.me">tshenker@technicaldataservices.me</a></address>
                                 </div>
@@ -230,7 +236,10 @@
     <!-- FOOTER -->
     <footer>
         <div class="ui container" id="footer">
-            <p class="ui violet medium header center aligned">&copy; Terry Shenker 2019</p>
+            <p class="ui violet medium header center aligned">&copy; Terry Shenker 2019<span id="footer-space"></span>
+                <a href="https://github.com/Tezza1" target="_blank"><i class="github square icon ui violet"></i></a>
+                <a href="https://www.linkedin.com/in/terry-shenker/" target="_blank"><i class="linkedin icon ui violet"></i></a>
+            </p>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -44,5 +44,25 @@ $(document).ready(function(){
     });
 
     // scrollspy
-        
+    $("#item1").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#top-content-container").offset().top
+        }, 2000);
+    }); 
+
+    $("#item2").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#middle-content-container").offset().top
+        }, 2000);
+    });
+
+    $("#item3").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#bottom-content-container").offset().top
+        }, 2000);
+    }); 
+
+    $("#page-header").hide().fadeIn(3000);
+
 });
+
