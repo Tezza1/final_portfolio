@@ -1,4 +1,19 @@
+/* BACKGROUND IMAGE */
+.background {
+    background-color: black;
+}
+
+/* NAV */
+nav .menu a.active {
+    border-bottom: 2px solid #7e57c2;
+}
+
+
 /* HEADER  */
+.main-header {
+    background-color: transparent;
+}
+
 .menu.item {
     font-size: 1.1em;
 }

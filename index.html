@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body id="the-body">
+<body class="background">
     <!-- MENU -->
     <nav>
         <div class="ui inverted three item pointing top fixed menu">
@@ -27,7 +27,7 @@
     <header>
         <img class="ui fluid image" id="static" src="img/dark_skyline.jpg" alt="Skyline">
 
-        <div class="ui container">
+        <div class="ui container main-header">
             <div>
                 <h1 class="ui large header center aligned" id="page-header"><span id="blur">Portfolio for</span> <br /><span id="focus-header" class="ui violet header">Terry Shenker</span></h1>
             </div>
@@ -235,52 +235,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-    <script language='javascript'>
-        $(document).ready(function(){
-
-            $('#item1').click(function(){
-                $('#item1').addClass("active");
-                $('#item2').removeClass("active");
-                $('#item3').removeClass("active");
-            });
-
-            $('#item2').click(function(){
-                $('#item2').addClass("active");
-                $('#item1').removeClass("active");
-                $('#item3').removeClass("active");
-            });
-
-            $('#item3').click(function(){
-                $('#item3').addClass("active");
-                $('#item1').removeClass("active");
-                $('#item2').removeClass("active");
-            });
-
-            // initialize the accordion
-            $('.ui.accordion').accordion();
-
-            // initializing the modal
-            $("#langexbot_modal").click(function(){
-                $(".langexbot_modal").modal('show');
-            });
-            $(".langexbot_modal").modal({
-                closable: true
-            });
-
-            $("#npad_modal").click(function(){
-                $(".npad_modal").modal('show');
-            });
-            $(".npad_modal").modal({
-                closable: true
-            });
-
-            $("#marvel_modal").click(function(){
-                $(".marvel_modal").modal('show');
-            });
-            $(".marvel_modal").modal({
-                closable: true
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
