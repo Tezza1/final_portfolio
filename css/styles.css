@@ -131,3 +131,12 @@ r}
 #footer a {
   r  font-size: 1.8rem;
 }
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    #top-content-container {
+        margin-top: 14rem;
+    }
+}
+
