@@ -62,7 +62,5 @@ $(document).ready(function(){
         }, 2000);
     }); 
 
-    $("#page-header").hide().fadeIn(3000);
-
 });
 
